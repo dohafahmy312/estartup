@@ -144,7 +144,7 @@ body {
 
         width: 50px;
         height: 50px;
-        right: 10px;
+        right: 3px;
     }
 
     #home .theem-toggle i {
@@ -239,6 +239,12 @@ body {
 
 
 @media(max-width:750px) {
+    #about .image1 img {
+        height: 90%;
+        width: 90%;
+
+    }
+
     #about .image2 img {
         height: 90%;
         width: 90%;
@@ -364,6 +370,14 @@ body {
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0.5);
     padding-bottom: 10px;
 
+
+}
+
+@media (max-width:750px) {
+    #features .box {
+        width: 300px;
+        height: 100px;
+    }
 
 }
 
@@ -515,6 +529,15 @@ body {
     background-color: var(--backgroundcolorr);
     transition: all 0.3s;
 
+}
+
+@media (max-width:750px) {
+  #price .box {
+   
+    width: 80%;
+    height: 500px;
+   
+}
 }
 
 #price .box:hover {
@@ -822,11 +845,12 @@ body {
     display: none;
 
 }
+
 @media (max-width:750px) {
-    .colors{
+    .colors {
         width: 85%;
     }
-    
+
 }
 
 .colors h6 {
@@ -856,53 +880,58 @@ i.bi-gear {
     background-color: var(--default-color);
     color: var(--surface-color);
 }
+
 @media (max-width:750px) {
-    i.bi-gear{
+    i.bi-gear {
         top: 400px;
         right: 10px;
         width: 50px;
         height: 50px;
     }
-    
+
 }
 
-.color{
+.color {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-justify-content: center;
-margin: 20px;
+    justify-content: center;
+    margin: 20px;
 }
-.color .color-option-section{
-   width: 40px;
-   height: 40px;
-   margin-right: 10px;
-   margin-bottom: 5px;
-   border: 1px solid black;
-   border-radius: 40px;
+
+.color .color-option-section {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
 }
-.color .color-option-headercolor{
-      width: 40px;
-   height: 40px;
-   margin-right: 10px;
-   margin-bottom: 5px;
-   border: 1px solid black;
-   border-radius: 40px;
+
+.color .color-option-headercolor {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
 
 }
-.color .color-option-buttoncolor{
-          width: 40px;
-   height: 40px;
-   margin-right: 10px;
-   margin-bottom: 5px;
-   border: 1px solid black;
-   border-radius: 40px;
+
+.color .color-option-buttoncolor {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
 }
-.color .color-option-navbar{
-          width: 40px;
-   height: 40px;
-   margin-right: 10px;
-   margin-bottom: 5px;
-   border: 1px solid black;
-   border-radius: 40px;
+
+.color .color-option-navbar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
 }
