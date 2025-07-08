@@ -154,7 +154,7 @@ body {
 
         width: 50px;
         height: 50px;
-        right: 20px;
+        right: 40px;
     }
 
     #home .theem-toggle i {
@@ -889,7 +889,7 @@ i.bi-gear {
 @media (max-width:750px) {
     i.bi-gear {
         top: 400px;
-        right: 20px;
+        right: 40px;
         width: 50px;
         height: 50px;
     }
