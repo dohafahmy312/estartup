@@ -11,11 +11,15 @@ body {
   box-sizing: border-box;
 }
 html, body {
-  max-width: 100%;
+  width: 100%;
  
 }
 
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  html, body {
+    overflow-x: auto;
+  }
+}
 
 :root {
     --background-color: #ffffff;
@@ -156,7 +160,7 @@ html, body {
 }
 
 
-@media (max-width:750px) {
+@media (max-width:550px) {
     #home .theem-toggle {
         top: 490px;
 
@@ -755,7 +759,7 @@ html, body {
 
     background-color: var(--accent-color);
     transition: all 0.5s;
-   
+    /* margin: 80px; */
 }
 
 #contact button:hover {
@@ -895,7 +899,7 @@ i.bi-gear {
     color: var(--surface-color);
 }
 
-@media (max-width:750px) {
+@media (max-width:550px) {
     i.bi-gear {
         top: 400px;
         right: 17px;
