@@ -162,7 +162,7 @@ html, body {
 
         width: 50px;
         height: 50px;
-        right: 40px;
+        right: 17px;
     }
 
     #home .theem-toggle i {
@@ -765,6 +765,7 @@ html, body {
 }
 
 
+
 /* /////////////////////////end section el contact///////////// */
 /* section footer */
 #footer {
@@ -853,7 +854,7 @@ html, body {
     /* flex-direction: column; */
     overflow-y: auto;
 
-    background-color: rgb(111, 165, 111);
+    background-color:var(--accent-color);
 
     display: none;
 
@@ -897,7 +898,7 @@ i.bi-gear {
 @media (max-width:750px) {
     i.bi-gear {
         top: 400px;
-        right: 40px;
+        right: 17px;
         width: 50px;
         height: 50px;
     }
