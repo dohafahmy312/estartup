@@ -755,7 +755,7 @@ html, body {
 
     background-color: var(--accent-color);
     transition: all 0.5s;
-    margin-left: 80px;
+   
 }
 
 #contact button:hover {
@@ -854,7 +854,7 @@ html, body {
     /* flex-direction: column; */
     overflow-y: auto;
 
-    background-color:var(--accent-color);
+    background-color: rgb(111, 165, 111);
 
     display: none;
 
